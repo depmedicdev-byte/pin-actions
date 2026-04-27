@@ -1,5 +1,7 @@
 # pin-actions
 
+[![npm](https://img.shields.io/npm/v/pin-actions.svg)](https://www.npmjs.com/package/pin-actions) [![ci](https://github.com/depmedicdev-byte/pin-actions/actions/workflows/test.yml/badge.svg)](https://github.com/depmedicdev-byte/pin-actions/actions/workflows/test.yml) [![license](https://img.shields.io/npm/l/pin-actions.svg)](./LICENSE)
+
 Pin every `uses: owner/repo@ref` in your GitHub Actions workflows to a
 full commit SHA. Supply-chain-safe, in-place rewrite, comment-preserving.
 
