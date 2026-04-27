@@ -1,0 +1,46 @@
+{
+  "name": "pin-actions",
+  "version": "0.1.0",
+  "description": "Pin every uses: owner/repo@ref in your GitHub Actions workflows to a full commit SHA. Supply-chain-safe, in-place rewrite, comment-preserving. CLI, MIT.",
+  "keywords": [
+    "github-actions",
+    "supply-chain",
+    "security",
+    "sha",
+    "pin",
+    "workflow",
+    "ci",
+    "cli",
+    "yaml",
+    "renovate",
+    "dependabot"
+  ],
+  "bin": {
+    "pin-actions": "bin/cli.js"
+  },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "depmedic <depmedic.dev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depmedicdev-byte/pin-actions.git"
+  },
+  "homepage": "https://github.com/depmedicdev-byte/pin-actions#readme",
+  "bugs": {
+    "url": "https://github.com/depmedicdev-byte/pin-actions/issues"
+  }
+}
