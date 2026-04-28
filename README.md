@@ -1,5 +1,8 @@
 # pin-actions
 
+
+[![Sponsor](https://img.shields.io/badge/sponsor-depmedic-ea4aaa?logo=githubsponsors)](https://depmedicdev-byte.github.io/sponsor.html)
+
 [![npm](https://img.shields.io/npm/v/pin-actions.svg)](https://www.npmjs.com/package/pin-actions) [![ci](https://github.com/depmedicdev-byte/pin-actions/actions/workflows/test.yml/badge.svg)](https://github.com/depmedicdev-byte/pin-actions/actions/workflows/test.yml) [![license](https://img.shields.io/npm/l/pin-actions.svg)](./LICENSE)
 
 Pin every `uses: owner/repo@ref` in your GitHub Actions workflows to a
